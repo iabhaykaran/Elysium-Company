@@ -26,7 +26,7 @@ const Homepage = () => {
           <h1>Web Development solutions</h1>
           <p>Empowering businesses with cutting-edge digital solutions</p>
           <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
-            Get Started
+            <a href="/home">Get Started</a>
           </motion.button>
         </div>
       </motion.header>
