@@ -134,6 +134,12 @@ const Homepage = () => {
             </motion.div>
           ))}
         </motion.div>
+
+        <div className="contact">
+          <h3> Call: 7985272417</h3>
+
+          <p>iamabhaykaran@gmail.com</p>
+        </div>
       </section>
     </div>
   );
