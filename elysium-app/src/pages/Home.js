@@ -13,7 +13,7 @@ const Homepage = () => {
           marginBottom: "20px",
         }}
       >
-        <h1>ELYSIUM .INC</h1>
+        <h1>ELYSIUM </h1>
       </div>
       {/* Hero Section */}
       <motion.header
@@ -22,7 +22,6 @@ const Homepage = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div>{/* <img src="webj.webp" width="100%" height="350px" /> */}</div>
         <div>
           <h1>Web Development solutions</h1>
           <p>Empowering businesses with cutting-edge digital solutions</p>
@@ -105,7 +104,7 @@ const Homepage = () => {
             },
             {
               plan: "Mobile App Development",
-              price: "₹40,000-1.5 Lakh",
+              price: "40,000-1.5 Lakh",
               features: [
                 "App Integrated with Website ",
                 "Smoooth User Experience",

@@ -2,18 +2,18 @@
 
 * {
   /* box-sizing: border-box; */
-  margin: 0; 
-   padding: 0;
+  margin: 0;
+  padding: 0;
 
   font-family: Poppins;
 }
 
 .homepage-container {
   min-height: 100vh;
-  background: linear-gradient(to right, #5d5d52, #16213e);
+  background: linear-gradient(to right, #2c7e7a, #16213e);
   color: rgb(255, 255, 255);
   padding: 40px;
-  /* font-family: Arial, sans-serif; */
+
 }
 * {
   list-style: none;
@@ -26,7 +26,10 @@
   border-radius: 10px;
   color: #ffffff;
   height: 350px;
-  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 50px;
 }
 
 .hero-section h1 {
