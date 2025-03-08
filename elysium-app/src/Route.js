@@ -1,15 +1,20 @@
 import React from "react";
-import { Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+// import J from "./pages/J";
+// import Abpute from "./pages/Abpute";
 import J from "./pages/J";
+import Homepage from "./pages/Home";
+import Abpute from "./pages/About";
 
-const Route = () => {
+const Rout = () => {
   return (
-      <Routes>
     <div>
-        <Route path="home" element={J} />
-    </div>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/home" element={<Abpute/>} />
       </Routes>
+    </div>
   );
 };
 
-export default Route;
+export default Rout;

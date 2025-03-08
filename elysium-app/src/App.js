@@ -1,12 +1,16 @@
+// import { Router } from "react-router-dom";
 import "./App.css";
-import Homepage from "./pages/Home";
-import J from "./pages/J";
+
+// import J from "./pages/J";
+// import { Link } from "react-router-dom";
+
+import Rout from "./Route";
 
 function App() {
   return (
     <div className="App">
-      <Homepage />
-      <J />
+      {/* <Link to="/">Home</Link> */}
+      <Rout />
     </div>
   );
 }

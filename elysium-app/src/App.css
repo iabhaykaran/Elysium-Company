@@ -4,10 +4,14 @@
   /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
-
+text-decoration: none;
   font-family: Poppins;
 }
+a{
 
+
+  color: #9fb7ec;
+}
 .homepage-container {
   min-height: 100vh;
   background: linear-gradient(to right, #2c7e7a, #16213e);

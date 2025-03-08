@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -26,7 +27,7 @@ const Homepage = () => {
           <h1>Web Development solutions</h1>
           <p>Empowering businesses with cutting-edge digital solutions</p>
           <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
-            <a href="/home">Get Started</a>
+            <Link to="/home">Get Started</Link>
           </motion.button>
         </div>
       </motion.header>
@@ -77,6 +78,7 @@ const Homepage = () => {
         <h2>
           Pricing <span className="highlight">Plans</span>
         </h2>
+
         <motion.div
           className="pricing-grid"
           initial={{ opacity: 0 }}
