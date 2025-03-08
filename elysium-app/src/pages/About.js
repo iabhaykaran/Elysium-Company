@@ -1,5 +1,5 @@
 import React from "react";
-// import "./k.css";
+import "./k.css";
 import { FaLaptopCode, FaPaintBrush, FaVideo, FaRocket } from "react-icons/fa";
 
 export default function ElysiumPage() {
@@ -100,9 +100,9 @@ export default function ElysiumPage() {
       >
         <h2>Get in Touch</h2>
         <p>
-          📧 Email: iamabhaykaran@gmail.com |
-          <br />
           📞 Phone: +91 7985272417
+          <br />
+          📧 Email: iamabhaykaran@gmail.com
         </p>
       </div>
     </div>
