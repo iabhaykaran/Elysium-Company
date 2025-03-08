@@ -1,24 +1,24 @@
 import React from "react";
-// import "./About.css";
+
 import { FaLaptopCode, FaPaintBrush, FaVideo, FaRocket } from "react-icons/fa";
 
 export default function ElysiumPage() {
   return (
     <div className="page-container">
       {/* Hero Section */}
-      <header className="her">
+      {/* <header className="her">
         <h1>
           <span className="highlight">Elysium.INC</span>
         </h1>
         <br />
-        <p>Web, Graphics & Video – All in One Place!</p>
-        {/* <button className="cta-button">Get Started 🚀</button> */}
-      </header>
+        <p>Web, Graphics & Video – All in One Place!</p> */}
+      {/* <button className="cta-button">Get Started 🚀</button> */}
+      {/* </header> */}
 
       {/* Services Section */}
-      <section className="services">
+      <section className="ser">
         <h2>Our Services</h2>
-        <div className="services-grid">
+        <div className="s-g">
           <ServiceCard icon={<FaLaptopCode />} title="Web Development" />
           <ServiceCard icon={<FaPaintBrush />} title="Graphic Design" />
           <ServiceCard icon={<FaVideo />} title="Video Editing" />

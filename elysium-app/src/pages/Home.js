@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaLaptopCode, FaPaintBrush, FaVideo, FaRocket } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import ElysiumPage from "./About";
 import "../App.css";
 // import J from "./J";
 
@@ -16,7 +18,7 @@ const Homepage = () => {
             marginBottom: "20px",
           }}
         >
-          <h1>ELYSIUM </h1>
+          <h1>ELYSIUM</h1>
         </div>
         {/* Hero Section */}
         <motion.header
@@ -26,7 +28,8 @@ const Homepage = () => {
           transition={{ duration: 1 }}
         >
           <div>
-            <h1>Web Development solutions</h1>
+            <h1>ELYSIUM</h1>
+            <h2>Web Development solutions</h2>
             <p>Empowering businesses with cutting-edge digital solutions</p>
             {/* <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
               <Link to="/home">Get Started</Link>
@@ -143,6 +146,77 @@ const Homepage = () => {
             ))}
           </motion.div>
         </section>
+
+        <section className="ser">
+          {/* <h2>Our Services</h2> */}
+          <div className="s-g">
+            <ServiceCard icon={<FaLaptopCode />} title="Web Development" />
+            <ServiceCard icon={<FaPaintBrush />} title="Graphic Design" />
+            <ServiceCard icon={<FaVideo />} title="Video Editing" />
+            <ServiceCard icon={<FaRocket />} title="SEO & Branding" />
+          </div>
+        </section>
+
+        <div className="servicegrid">
+          <div className="servik">
+            <h2 style={{ color: "#FFA725" }}>
+              Welcome to Elysium – Your Partner in Digital Excellence
+            </h2>
+            <br />
+            <p>
+              At Elysium, we create stunning websites, captivating graphics, and
+              high-quality videos that bring your brand to life. Whether you
+              need a sleek business website, an engaging social media campaign,
+              or a compelling promotional video, we deliver cutting-edge
+              solutions tailored to your needs.
+            </p>
+          </div>
+          {/* <h2>Our Services</h2> */}
+          {/* <div className="services"> */}
+          <div className="servik">
+            <h3>🌐 Web Development</h3>
+            <p>
+              Responsive, fast, and user-friendly websites. Custom web
+              applications tailored to your business. eCommerce platforms for
+              seamless online selling.
+            </p>
+          </div>
+
+          <div className="servik">
+            <h3>🎨 Graphic Design</h3>
+            <p>
+              Logo & branding design for a unique identity. Social media
+              creatives that grab attention. Brochures, flyers, and marketing
+              materials
+            </p>
+          </div>
+
+          <div className="servik">
+            <h3>📹 Video Editing & Production</h3>
+
+            <p>
+              Promotional videos that showcase your brand. Social media reels
+              and ads for better engagement. Motion graphics & animation for a
+              dynamic touch.
+            </p>
+          </div>
+          <div className="servik">
+            <h3>⚡UI/UX Design</h3>
+            <p>
+              Intuitive and engaging designs for websites & apps. User-centric
+              experiences that enhance usability.
+            </p>
+          </div>
+
+          <div className="servik">
+            <h3>📈SEO&Performance</h3>
+            <p>
+              Optimization Boost rankings with SEO-friendly websites. Optimize
+              speed, performance, and responsiveness.
+            </p>
+          </div>
+          {/* <hr /> */}
+        </div>
       </div>
 
       <div className="contact">
@@ -156,3 +230,12 @@ const Homepage = () => {
 };
 
 export default Homepage;
+
+function ServiceCard({ icon, title }) {
+  return (
+    <div className="s-card">
+      <div className="icon">{icon}</div>
+      <h3>{title}</h3>
+    </div>
+  );
+}

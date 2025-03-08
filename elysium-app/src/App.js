@@ -1,5 +1,5 @@
-
-// import "./App.css";
+// import "./pages/About.css";
+import "./App.css";
 // import "./pages/k.css";
 
 import Rout from "./Route";
@@ -7,7 +7,6 @@ import Rout from "./Route";
 function App() {
   return (
     <div className="App">
-
       <Rout />
     </div>
   );

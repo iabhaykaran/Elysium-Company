@@ -50,11 +50,11 @@
 }
 
 /* Services Section */
-.services {
+.ser {
   padding: 20px 15px;
 }
 
-.services h2 {
+.ser h2 {
   font-size: 2.5rem;
   color: #e1e1e1;
 }
@@ -65,7 +65,7 @@
   margin-bottom: 10px;
 }
 
-.services-grid {
+.s-g {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
