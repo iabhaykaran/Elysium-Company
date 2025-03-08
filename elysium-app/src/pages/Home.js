@@ -53,8 +53,12 @@ const Homepage = () => {
               desc: "Data-driven insights for better decision-making.",
             },
             {
-              title: "Website Upgrade",
+              title: "Website Updation",
               desc: "Migrate and modernize your existing website.",
+            },
+            {
+              title: "Graphic Designer",
+              desc: "Creating a Beautiful And professional Graphics related work for Your BUSSINESS .",
             },
             {
               title: "Support Management",

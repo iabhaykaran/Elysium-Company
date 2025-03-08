@@ -4,12 +4,10 @@
   /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
-text-decoration: none;
+  text-decoration: none;
   font-family: Poppins;
 }
-a{
-
-
+a {
   color: #9fb7ec;
 }
 .homepage-container {
@@ -32,7 +30,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:10px;
+  padding: 10px;
 }
 
 .contact {
@@ -42,25 +40,24 @@ a{
   align-items: center;
   margin: 50px 1px;
   border-radius: 10px;
-  background: linear-gradient(to right, #000000, #030b0b);
+  /* background: linear-gradient(to right, #000000, #030b0b); */
+
+
+   background-color: #16212b;
   border: 0.5px solid rgb(255, 255, 255);
 
   justify-content: center;
 }
 
-.footer{
-
-display: flex;
-background-color: #000000;
+.footer {
+  display: flex;
+  background-color: #000000;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   height: 150px;
 }
-
-
-
 
 .hero-section h1 {
   font-size: 48px;
@@ -95,10 +92,14 @@ background-color: #000000;
 .services-section {
   text-align: center;
   /* background-color: rgb(127, 126, 127); */
+  /* background-color: #16213e; */
+
+    background-color: #16212b;
   margin-top: 50px;
   color: #ffffff;
   padding: 20px;
   border-radius: 10px;
+  border: 0.5px solid rgb(255, 255, 255);
 }
 
 .services-grid {
@@ -112,9 +113,17 @@ background-color: #000000;
   background-color: transparent;
   padding: 20px;
   border: 0.5px solid rgb(255, 255, 255);
+ background: linear-gradient(to right, #182827, #2d0865);
+/* background-color: #484848; */
+
+    /* background-color: #16212b; */
   color: #ffffff;
   border-radius: 10px;
-  transition: transform 0.3s;
+  /* background: rgb(2, 0, 36); */
+
+
+
+  transition: transform 0;
 }
 
 .service-card:hover {
