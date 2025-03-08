@@ -2,9 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import "../App.css";
 import { Link } from "react-router-dom";
+import J from "./J";
 
 const Homepage = () => {
   return (
+
+    <div  className="App">
     <div className="homepage-container">
       <div
         style={{
@@ -70,6 +73,7 @@ const Homepage = () => {
               className="service-card"
               whileHover={{ scale: 1.05 }}
             >
+              <i class="fas fa-code"></i>
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
             </motion.div>
@@ -141,12 +145,14 @@ const Homepage = () => {
           ))}
         </motion.div>
 
+      </section>
+    </div>
         <div className="contact">
           <h3> Call: 7985272417</h3>
 
           <p>iamabhaykaran@gmail.com</p>
         </div>
-      </section>
+    {/* <J/> */}
     </div>
   );
 };
