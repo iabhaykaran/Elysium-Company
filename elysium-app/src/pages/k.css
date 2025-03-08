@@ -9,7 +9,7 @@
 }
 
 /* Hero Section */
-.hero {
+.her {
   background: linear-gradient(to right, #0f1423, #8b058b);
   padding: 50px 20px;
   display: flex;
@@ -20,7 +20,7 @@
   height: 350px;
 }
 
-.hero h1 {
+.her h1 {
   font-size: 3rem;
   text-transform: uppercase;
 }

@@ -1,12 +1,12 @@
 import React from "react";
-import "../About.css";
+// import "./k.css";
 import { FaLaptopCode, FaPaintBrush, FaVideo, FaRocket } from "react-icons/fa";
 
 export default function ElysiumPage() {
   return (
     <div className="page-container">
       {/* Hero Section */}
-      <header className="hero">
+      <header className="her">
         <h1>
           <span className="highlight">Elysium.INC</span>
         </h1>
