@@ -1,6 +1,4 @@
-// import "./pages/About.css";
 import "./App.css";
-// import "./pages/k.css";
 
 import Rout from "./Route";
 

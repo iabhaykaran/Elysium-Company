@@ -1,10 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaLaptopCode, FaPaintBrush, FaVideo, FaRocket } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import ElysiumPage from "./About";
 import "../App.css";
-// import J from "./J";
 
 const Homepage = () => {
   return (
@@ -82,7 +79,56 @@ const Homepage = () => {
           </motion.div>
         </section>
 
-        {/* Pricing Section */}
+        {/* 
+        <div className="servicegrid">
+
+         
+          <div className="servik">
+            <h3>🌐 Web Development</h3>
+            <p>
+              Responsive, fast, and user-friendly websites. Custom web
+              applications tailored to your business. eCommerce platforms for
+              seamless online selling.
+            </p>
+          </div>
+
+          <div className="servik">
+            <h3>🎨 Graphic Design</h3>
+            <p>
+              Logo & branding design for a unique identity. Social media
+              creatives that grab attention. Brochures, flyers, and marketing
+              materials
+            </p>
+          </div>
+
+          <div className="servik">
+            <h3>📹 Video Editing & Production</h3>
+
+            <p>
+              Promotional videos that showcase your brand. Social media reels
+              and ads for better engagement. Motion graphics & animation for a
+              dynamic touch.
+            </p>
+          </div>
+          <div className="servik">
+            <h3>⚡UI/UX Design</h3>
+            <p>
+              Intuitive and engaging designs for websites & apps. User-centric
+              experiences that enhance usability.
+            </p>
+          </div>
+
+          <div className="servik">
+            <h3>📈SEO&Performance</h3>
+            <p>
+              Optimization Boost rankings with SEO-friendly websites. Optimize
+              speed, performance, and responsiveness.
+            </p>
+          </div>
+        </div> */}
+
+        {/*------------------- Pricing Section-------------------- */}
+
         <section className="pricing-section">
           <h2>
             Pricing <span className="highlight">Plans</span>
@@ -157,8 +203,7 @@ const Homepage = () => {
           </div>
         </section>
 
-        <div className="servicegrid">
-          <div className="servik">
+        {/* <div className="servik">
             <h2 style={{ color: "#FFA725" }}>
               Welcome to Elysium – Your Partner in Digital Excellence
             </h2>
@@ -170,7 +215,8 @@ const Homepage = () => {
               or a compelling promotional video, we deliver cutting-edge
               solutions tailored to your needs.
             </p>
-          </div>
+          </div> */}
+        <div className="servicegrid">
           {/* <h2>Our Services</h2> */}
           {/* <div className="services"> */}
           <div className="servik">
