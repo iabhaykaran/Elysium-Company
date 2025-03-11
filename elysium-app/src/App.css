@@ -120,10 +120,11 @@ a {
   border-radius: 10px;
 
   transition: transform 0.3s;
+  transform: scale(0.9);
 }
 
 .service-card:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 /* Pricing Section */
