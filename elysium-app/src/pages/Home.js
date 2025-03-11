@@ -8,14 +8,30 @@ const Homepage = () => {
     <div className="App">
       <div className="homepage-container">
         <div
+          className="navbar"
           style={{
             background: "black",
+            display: "flex",
             padding: "5px 10px",
+
+            position: "  ",
             // color: "black",
             marginBottom: "20px",
           }}
         >
-          <h1>ELYSIUM</h1>
+          <h1>
+            <span
+              style={{
+                backgroundColor: "red",
+                padding: "0px 12px",
+                width: "10px",
+                borderRadius: "",
+              }}
+            >
+              E L Y
+            </span>
+            S I U M
+          </h1>
         </div>
         {/* Hero Section */}
         <motion.header
@@ -24,7 +40,14 @@ const Homepage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <div>
+          <div style={{ padding: "10px" }}>
+            {/* <img
+              style={{ borderRadius: "100%" }}
+              src="dp1.webp"
+              alt="#"
+              width="100%"
+              height="100%"
+            /> */}
             <h1>ELYSIUM</h1>
             <h2>Web Development solutions</h2>
             <p>Empowering businesses with cutting-edge digital solutions</p>
@@ -72,6 +95,7 @@ const Homepage = () => {
                 className="service-card"
                 whileHover={{ scale: 1.05 }}
               >
+                {/* <FaLaptopCode /> */}
                 <h3>{service.title}</h3>
                 <p>{service.desc}</p>
               </motion.div>
