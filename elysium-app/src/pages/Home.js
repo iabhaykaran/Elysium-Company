@@ -88,7 +88,7 @@ const Homepage = () => {
           <h2>
             Pricing <span className="highlight">Plans</span>
           </h2>
-
+          <br />
           <motion.div
             className="pricing-grid"
             initial={{ opacity: 0 }}

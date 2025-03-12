@@ -26,7 +26,7 @@ const ServiceCom = () => {
         className="scroll-none"
         style={{
           display: "flex",
-          paddingLeft: "50px",
+          paddingLeft: "px",
           gap: "20px",
           overflowX: "scroll",
         }}

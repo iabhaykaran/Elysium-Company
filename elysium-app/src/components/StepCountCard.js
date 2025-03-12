@@ -7,8 +7,8 @@ const StepCountCard = (props) => {
         <h1 style={{ fontSize: "50px" }}>{props.count}</h1>
         <br />
         <p>
-          A well-designed website is a powerful marketing and communication tool
-          that helps build trust and generate leads.
+          {props.text}    
+          
         </p>
       </div>
     </div>

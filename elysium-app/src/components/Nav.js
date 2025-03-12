@@ -9,7 +9,7 @@ const Nav = () => {
           background: "black",
           display: "flex",
           padding: "5px 10px",
-
+          // maxWidth: "850px",
           position: "  ",
           // color: "black",
           marginBottom: "20px",

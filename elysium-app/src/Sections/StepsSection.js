@@ -23,15 +23,31 @@ const StepsSection = () => {
         className="scroll-none"
         style={{
           display: "flex",
-          paddingLeft: "50px",
+          paddingLeft: "px",
           gap: "20px",
           overflowX: "scroll",
         }}
       >
-        <StepCountCard count="01" />
-        <StepCountCard count="02" />
-        <StepCountCard count="03" />
-        <StepCountCard count="04" />
+        <StepCountCard
+          count="01"
+          text=" Set the right direction with our web development consultants.  "
+        />
+        <StepCountCard
+          count="02"
+          text=" Together, we'll decide on the tech stack and the overall approach. "
+        />
+        <StepCountCard
+          count="03"
+          text=" We'll craft a beautiful and user-friendly web solution with our expert designers. "
+        />
+        <StepCountCard
+          count="04"
+          text="  We'll code the web app with a team of experienced engineers."
+        />
+        <StepCountCard
+          count="05"
+          text="We'll help you launch your product and keep it in good shape with support and maintenance."
+        />
       </div>
     </div>
   );
