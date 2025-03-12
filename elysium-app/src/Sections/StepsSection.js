@@ -8,6 +8,7 @@ const StepsSection = () => {
         <span className="text-half-color"> Web development process</span>
       </h2>
       <br />
+      <br />
 
       <div>
         <p>
@@ -17,9 +18,15 @@ const StepsSection = () => {
       </div>
       <br />
       <br />
+      <br />
       <div
         className="scroll-none"
-        style={{ display: "flex", gap: "20px", overflowX: "scroll" }}
+        style={{
+          display: "flex",
+          paddingLeft: "50px",
+          gap: "20px",
+          overflowX: "scroll",
+        }}
       >
         <StepCountCard count="01" />
         <StepCountCard count="02" />

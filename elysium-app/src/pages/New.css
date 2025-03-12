@@ -10,14 +10,13 @@
 }
 .services-card {
   padding: 15px;
-  /* border-right: 1px solid white; */
-
+  border-right: 1px solid rgb(72, 189, 193);
   width: 220px;
   background-color: #1b1b1b;
   color: rgb(255, 255, 255);
   font-size: small;
   text-align: left;
-  height: 250px;
+  height: 200px;
   font-weight: 500;
 }
 .services-card h3 {
