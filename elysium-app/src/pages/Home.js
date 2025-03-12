@@ -2,6 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaLaptopCode, FaPaintBrush, FaVideo, FaRocket } from "react-icons/fa";
 import "../App.css";
+import ServiceCom from "../Sections/ServiceCom";
+import OurClients from "../Sections/OurClients";
+import StepsSection from "../Sections/StepsSection";
 
 const Homepage = () => {
   return (
@@ -57,6 +60,10 @@ const Homepage = () => {
           </div>
         </motion.header>
 
+        <ServiceCom />
+        <OurClients />
+
+        <StepsSection />
         {/* Services Section */}
         <section className="services-section">
           <h2>
@@ -287,7 +294,6 @@ const Homepage = () => {
           </div>
           {/* <hr /> */}
         </div>
-        
       </div>
 
       <div className="contact">

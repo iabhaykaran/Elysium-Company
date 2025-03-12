@@ -1,0 +1,21 @@
+.service-box {
+  padding: 60px 20px;
+}
+.services-card {
+  padding: 10px;
+  width: 220px;
+  background-color: rgb(41, 41, 42);
+  color: rgb(255, 255, 255);
+  font-size: small;
+  text-align: left;
+  height: 250px;
+  font-weight: 500;
+}
+
+.bg-grey {
+  background-color: rgb(37, 37, 37);
+}
+
+.text-half-color {
+  color: rgb(234, 19, 19);
+}
