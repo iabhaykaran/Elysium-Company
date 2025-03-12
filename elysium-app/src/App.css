@@ -20,16 +20,20 @@
 }
 
 .App {
-  /* background: linear-gradient(to right, #2c7e7a, #16213e); */
+  margin: auto;
+  width: 100%;
 }
+
 a {
   color: #9fb7ec;
 }
 .homepage-container {
+  width: 100%;
   /* min-height: 10vh; */
   color: rgb(255, 255, 255);
   background-color: #000000;
   padding: 55px 0px;
+  margin: auto;
 }
 * {
   list-style: none;
@@ -37,13 +41,12 @@ a {
 
 /* Hero Section */
 .hero-section {
-  text-align: center;
-  background-color: #16212b;
-  /* border: 0.5px solid rgb(255, 255, 255); */
-  /* border-radius: 10px; */
+  text-align: left;
+  background-color: #000000;
+
   color: #ffffff;
   height: 580px;
-  /* margin: 10px; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,38 +106,34 @@ a {
 
 /* Services Section */
 .services-section {
-  text-align: center;
-  margin-top: 50px;
-  color: #ffffff;
+  margin-top: 20px;
+
+  background-color: #f3732a;
+  width: 100%;
+  color: #000000;
   padding: 20px;
 }
 
 .services-grid {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .service-card {
-  background-color: transparent;
-  padding: 20px;
-  border: 0.5px solid rgb(255, 255, 255);
-  background: linear-gradient(to right, #0c283a, #07010c);
-  /* background: linear-gradient(to right, #182827, #2d0865); */
-  /* background-color: aliceblue; */
-  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
-  /* background-color: #cbcbcb; */
-  color: #ffffff;
-  border-radius: 10px;
-  /* background-color: transparent; */
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 200px;
+  height: 230px;
+  color: #a0d6d1;
   transition: transform 0.3s;
-  transform: scale(0.9.5);
+  transform: scale(0.9);
 }
 
 .service-card h3 {
-  color: rgb(255, 255, 255);
+  color: rgb(225, 225, 225);
 }
 
 .service-card:hover {
@@ -144,34 +143,27 @@ a {
 /* Pricing Section */
 .pricing-section {
   text-align: center;
-  padding: 10px;
-  margin-top: 50px;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
   margin-top: 20px;
 }
 
 .pricing-card {
-  background-color: transparent;
-  padding: 15px;
-  border-radius: 10px;
-  border: 0.5px solid rgb(255, 255, 255);
-  background-color: #0d0b1c;
-
+  padding: 50px 20px;
+  background-color: #1b1b1b;
   text-align: left;
-
-  /* transform: scale(0.4); */
   transition: transform 0.3s;
+  font-size: 14px;
 }
 
 .pricing-card:hover {
-  /* transform: scale(0.7); */
   transition: transform 0.5s;
-  /* background-color: transparent; */
 }
 
 .price {

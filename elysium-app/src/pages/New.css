@@ -13,9 +13,13 @@
 }
 
 .bg-grey {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(27, 28, 28);
 }
 
 .text-half-color {
   color: rgb(234, 19, 19);
+}
+
+.scroll-none::-webkit-scrollbar {
+  display: none;
 }

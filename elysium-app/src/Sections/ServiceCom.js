@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../pages/New.css";
+import Card from "../components/Card";
 
 const ServiceCom = () => {
   return (
@@ -19,15 +20,15 @@ const ServiceCom = () => {
       </div>
       <br />
       <br />
-      <div>
-        <div className="services-card">
-          <h3> Websites</h3>
-          <br />
-          <p>
-            A well-designed website is a powerful marketing and communication
-            tool that helps build trust and generate leads.
-          </p>
-        </div>
+      <div
+        className="scroll-none"
+        style={{ display: "flex", gap: "20px", overflowX: "scroll" }}
+      >
+        <Card title="Website" />
+        <Card title="Ecommerce" />
+        <Card title="Web Applications" />
+        <Card title="Content Management System" />
+        <Card title="Low-Code Development" />
       </div>
     </div>
   );

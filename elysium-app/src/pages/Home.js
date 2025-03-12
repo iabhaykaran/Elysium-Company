@@ -10,32 +10,6 @@ const Homepage = () => {
   return (
     <div className="App">
       <div className="homepage-container">
-        {/* <div
-          className="navbar"
-          style={{
-            background: "black",
-            display: "flex",
-            padding: "5px 10px",
-
-            position: "  ",
-            // color: "black",
-            marginBottom: "20px",
-          }}
-        >
-          <h1>
-            <span
-              style={{
-                backgroundColor: "red",
-                padding: "0px 12px",
-                width: "10px",
-                borderRadius: "",
-              }}
-            >
-              E L Y
-            </span>
-            S I U M
-          </h1>
-        </div> */}
         {/* Hero Section */}
         <motion.header
           className="hero-section"
@@ -44,14 +18,10 @@ const Homepage = () => {
           transition={{ duration: 1 }}
         >
           <div style={{ padding: "10px" }}>
-            {/* <img
-              style={{ borderRadius: "100%" }}
-              src="dp1.webp"
-              alt="#"
-              width="100%"
-              height="100%"
-            /> */}
-            <h1>ELYSIUM</h1>
+            <h1>
+              <span className="text-half-color">ELY</span>
+              SIUM
+            </h1>
             <h2>Web Development solutions</h2>
             <p>Empowering businesses with cutting-edge digital solutions</p>
             {/* <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
@@ -62,15 +32,14 @@ const Homepage = () => {
 
         <ServiceCom />
         <OurClients />
-
         <StepsSection />
         {/* Services Section */}
-        <section className="services-section">
+        {/* <section className="services-section">
           <h2>
             Our <span className="highlight">Services</span>
           </h2>
           <motion.div
-            className="services-grid"
+            className="services-grid  "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -102,61 +71,17 @@ const Homepage = () => {
                 className="service-card"
                 whileHover={{ scale: 1.05 }}
               >
-                {/* <FaLaptopCode /> */}
-                <h3>{service.title}</h3>
+                <h3>
+                  {service.title}
+
+                  <FaLaptopCode />
+                </h3>
+
                 <p>{service.desc}</p>
               </motion.div>
             ))}
           </motion.div>
-        </section>
-
-        {/* 
-        <div className="servicegrid">
-
-         
-          <div className="servik">
-            <h3>🌐 Web Development</h3>
-            <p>
-              Responsive, fast, and user-friendly websites. Custom web
-              applications tailored to your business. eCommerce platforms for
-              seamless online selling.
-            </p>
-          </div>
-
-          <div className="servik">
-            <h3>🎨 Graphic Design</h3>
-            <p>
-              Logo & branding design for a unique identity. Social media
-              creatives that grab attention. Brochures, flyers, and marketing
-              materials
-            </p>
-          </div>
-
-          <div className="servik">
-            <h3>📹 Video Editing & Production</h3>
-
-            <p>
-              Promotional videos that showcase your brand. Social media reels
-              and ads for better engagement. Motion graphics & animation for a
-              dynamic touch.
-            </p>
-          </div>
-          <div className="servik">
-            <h3>⚡UI/UX Design</h3>
-            <p>
-              Intuitive and engaging designs for websites & apps. User-centric
-              experiences that enhance usability.
-            </p>
-          </div>
-
-          <div className="servik">
-            <h3>📈SEO&Performance</h3>
-            <p>
-              Optimization Boost rankings with SEO-friendly websites. Optimize
-              speed, performance, and responsiveness.
-            </p>
-          </div>
-        </div> */}
+        </section> */}
 
         {/*------------------- Pricing Section-------------------- */}
 

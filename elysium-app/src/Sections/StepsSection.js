@@ -1,3 +1,5 @@
+import StepCountCard from "../components/StepCountCard";
+
 const StepsSection = () => {
   return (
     <div className="service-box">
@@ -15,15 +17,14 @@ const StepsSection = () => {
       </div>
       <br />
       <br />
-      <div>
-        <div style={{ background: "none" }} className="services-card  ">
-          <h1 style={{ fontSize: "50px" }}> 01</h1>
-          <br />
-          <p>
-            A well-designed website is a powerful marketing and communication
-            tool that helps build trust and generate leads.
-          </p>
-        </div>
+      <div
+        className="scroll-none"
+        style={{ display: "flex", gap: "20px", overflowX: "scroll" }}
+      >
+        <StepCountCard count="01" />
+        <StepCountCard count="02" />
+        <StepCountCard count="03" />
+        <StepCountCard count="04" />
         <hr />
       </div>
     </div>
