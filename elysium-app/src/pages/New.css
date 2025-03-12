@@ -6,9 +6,11 @@
 
 .service-box {
   padding: 60px 20px;
+  height: 80vh;
 }
 .services-card {
   padding: 15px;
+  /* border-right: 1px solid white; */
 
   width: 220px;
   background-color: #1b1b1b;
@@ -28,6 +30,7 @@
 
 .text-half-color {
   /* color: #ffe95c; */
+  /* color: rgb(179, 226, 63); */
   color: rgb(34, 230, 197);
 }
 

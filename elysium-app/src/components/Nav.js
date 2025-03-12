@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Nav = () => {
   return (
@@ -18,7 +18,7 @@ const Nav = () => {
         <h1>
           <span
             style={{
-              backgroundColor: "red",
+              color: "red",
               padding: "0px 12px",
               width: "10px",
               borderRadius: "",
@@ -31,6 +31,6 @@ const Nav = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Nav
+export default Nav;

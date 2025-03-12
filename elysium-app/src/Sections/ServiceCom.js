@@ -7,8 +7,8 @@ const ServiceCom = () => {
   return (
     <div className="service-box">
       <h2>
-        Achive your business goals with{" "}
-        <span className="text-half-color">Web Development solutions</span>
+        Achive your business goals <br /> with
+        <span className="text-half-color"> Web Development solutions</span>
       </h2>
       <br />
 

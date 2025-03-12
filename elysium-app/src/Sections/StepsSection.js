@@ -25,7 +25,6 @@ const StepsSection = () => {
         <StepCountCard count="02" />
         <StepCountCard count="03" />
         <StepCountCard count="04" />
-        <hr />
       </div>
     </div>
   );
