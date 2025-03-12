@@ -5,7 +5,7 @@ const OurClients = () => {
     <div className="service-box bg-grey">
       <h1>
         Why Chosse
-        <span className="text-half-color"> ELYSIUM </span>
+        <span className="text-half-color"> ELYSIUM? </span>
       </h1>
       <br />
       <div>
