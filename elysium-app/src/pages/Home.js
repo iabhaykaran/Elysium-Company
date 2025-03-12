@@ -209,7 +209,7 @@ const Homepage = () => {
       <div className="contact">
         {/* <h2> Call: 7985272417</h2> */}
 
-        <p>elysium.web@gmail.com</p>
+        <p>elysium@gmail.com</p>
       </div>
     </div>
   );
