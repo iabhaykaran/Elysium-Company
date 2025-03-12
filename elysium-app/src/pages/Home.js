@@ -287,6 +287,7 @@ const Homepage = () => {
           </div>
           {/* <hr /> */}
         </div>
+        
       </div>
 
       <div className="contact">
