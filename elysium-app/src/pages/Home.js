@@ -19,7 +19,7 @@ const Homepage = () => {
         >
           <div style={{ padding: "10px" }}>
             <h1>
-              <span className="text-half-color">ELY</span>
+              <span className="text-half-color bgr">ELY</span>
               SIUM
             </h1>
             <h2>Web Development solutions</h2>

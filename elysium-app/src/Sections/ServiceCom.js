@@ -6,10 +6,10 @@ import Card from "../components/Card";
 const ServiceCom = () => {
   return (
     <div className="service-box">
-      <h1>
+      <h2>
         Achive your business goals with{" "}
         <span className="text-half-color">Web Development solutions</span>
-      </h1>
+      </h2>
       <br />
 
       <div>

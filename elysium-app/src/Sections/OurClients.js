@@ -3,10 +3,11 @@ import React from "react";
 const OurClients = () => {
   return (
     <div className="service-box bg-grey">
-      <h1>
+      <h2>
         Why seek support with
-        <span className="text-half-color"> Web Development solutions</span>
-      </h1>
+        <span className="text-half-color"> Web Development</span>
+      </h2>
+      <br />
       <br />
       <div>
         <p>
@@ -16,16 +17,13 @@ const OurClients = () => {
         </p>
       </div>
 
-      {/* <div>
-        <div className="services-card">
-          <h3> Websites</h3>
+      <div>
+        <div>
           <br />
-          <p>
-            A well-designed website is a powerful marketing and communication
-            tool that helps build trust and generate leads.
-          </p>
+          <br />
+          
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

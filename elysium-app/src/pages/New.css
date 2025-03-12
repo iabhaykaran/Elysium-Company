@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .service-box {
   padding: 60px 20px;
 }
@@ -17,9 +23,10 @@
 }
 
 .text-half-color {
-  color: rgb(234, 19, 19);
+  color: rgb(41, 226, 182);
 }
 
 .scroll-none::-webkit-scrollbar {
   display: none;
 }
+
