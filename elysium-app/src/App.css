@@ -275,7 +275,8 @@ a {
   background: #333;
   width: 100%;
   padding: 15px 20px;
-  color: white;
+  /* color: white; */
+  color: rgb(34, 230, 197);
   text-align: center;
   z-index: 1000;
   transition: all 0.3s;

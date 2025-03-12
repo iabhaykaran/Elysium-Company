@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <div>
-      <div
+      <div 
         className="navbar"
         style={{
           background: "black",
@@ -18,7 +18,6 @@ const Nav = () => {
         <h1>
           <span
             style={{
-              color: "red",
               padding: "0px 12px",
               width: "10px",
               borderRadius: "",
