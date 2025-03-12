@@ -8,7 +8,7 @@
   padding: 60px 20px;
 }
 .services-card {
-  padding: 10px;
+  padding: 15px;
   width: 220px;
   background-color: rgb(41, 41, 42);
   color: rgb(255, 255, 255);
@@ -23,7 +23,7 @@
 }
 
 .text-half-color {
-  color: rgb(41, 226, 182);
+  color: #ffe95c;
 }
 
 .scroll-none::-webkit-scrollbar {

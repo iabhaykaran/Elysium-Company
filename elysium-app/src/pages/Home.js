@@ -149,8 +149,8 @@ const Homepage = () => {
           </motion.div>
         </section>
 
-        <section className="ser">
           {/* <h2>Our Services</h2> */}
+        <section className="ser">
           <div className="s-g">
             <ServiceCard icon={<FaLaptopCode />} title="Web Development" />
             <ServiceCard icon={<FaPaintBrush />} title="Graphic Design" />
@@ -159,22 +159,9 @@ const Homepage = () => {
           </div>
         </section>
 
-        {/* <div className="servik">
-            <h2 style={{ color: "#FFA725" }}>
-              Welcome to Elysium – Your Partner in Digital Excellence
-            </h2>
-            <br />
-            <p>
-              At Elysium, we create stunning websites, captivating graphics, and
-              high-quality videos that bring your brand to life. Whether you
-              need a sleek business website, an engaging social media campaign,
-              or a compelling promotional video, we deliver cutting-edge
-              solutions tailored to your needs.
-            </p>
-          </div> */}
-        <div className="servicegrid">
-          {/* <h2>Our Services</h2> */}
-          {/* <div className="services"> */}
+       
+        {/* <div className="servicegrid">
+       
           <div className="servik">
             <h3>🌐 Web Development</h3>
             <p>
@@ -217,8 +204,8 @@ const Homepage = () => {
               speed, performance, and responsiveness.
             </p>
           </div>
-          {/* <hr /> */}
-        </div>
+    
+        </div> */}
       </div>
 
       <div className="contact">
@@ -226,7 +213,7 @@ const Homepage = () => {
 
         <p>iamabhaykaran@gmail.com</p>
       </div>
-      {/* <J/> */}
+  
     </div>
   );
 };
@@ -234,10 +221,10 @@ const Homepage = () => {
 export default Homepage;
 
 function ServiceCard({ icon, title }) {
-  return (
-    <div className="s-card">
-      <div className="icon">{icon}</div>
-      <h3>{title}</h3>
-    </div>
-  );
+  // return (
+    // <div className="s-card">
+    //   <div className="icon">{icon}</div>
+    //   <h3>{title}</h3>
+    // </div>
+  // );
 }
