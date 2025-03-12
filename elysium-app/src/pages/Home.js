@@ -7,7 +7,7 @@ const Homepage = () => {
   return (
     <div className="App">
       <div className="homepage-container">
-        <div
+        {/* <div
           className="navbar"
           style={{
             background: "black",
@@ -32,7 +32,7 @@ const Homepage = () => {
             </span>
             S I U M
           </h1>
-        </div>
+        </div> */}
         {/* Hero Section */}
         <motion.header
           className="hero-section"
