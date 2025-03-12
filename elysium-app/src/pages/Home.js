@@ -134,7 +134,7 @@ const Homepage = () => {
 
                 <ul>
                   {plan.features.map((feature, i) => (
-                    <li key={i}>✔ {feature}</li>
+                    <li key={i}> {feature}</li>
                   ))}
                 </ul>
                 <motion.button
