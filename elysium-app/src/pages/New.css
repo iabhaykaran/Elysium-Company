@@ -9,6 +9,7 @@
 }
 .services-card {
   padding: 15px;
+
   width: 220px;
   background-color: #1b1b1b;
   color: rgb(255, 255, 255);
@@ -17,15 +18,23 @@
   height: 250px;
   font-weight: 500;
 }
+.services-card h3 {
+  color: rgb(250, 246, 138);
+}
 
 .bg-grey {
   background-color: rgb(27, 28, 28);
 }
 
 .text-half-color {
-  color: #ffe95c;
+  /* color: #ffe95c; */
+  color: rgb(34, 230, 197);
 }
 
 .scroll-none::-webkit-scrollbar {
   display: none;
+}
+
+.bgr {
+  color: rgb(34, 230, 197);
 }

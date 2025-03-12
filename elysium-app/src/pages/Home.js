@@ -17,12 +17,11 @@ const Homepage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <div style={{ padding: "10px" }}>
+          <div className="hero-head" style={{ padding: "10px" }}>
             <h1>
-              <span className="text-half-color bgr">ELY</span>
-              SIUM
+              <span className="bgr">E L Y S I U M</span>
             </h1>
-            <h2>Web Development solutions</h2>
+            <h2>Web Development Company.</h2>
             <p>Empowering businesses with cutting edge digital solutions</p>
             {/* <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
               <Link to="/home">Get Started</Link>
@@ -149,7 +148,7 @@ const Homepage = () => {
           </motion.div>
         </section>
 
-          {/* <h2>Our Services</h2> */}
+        {/* <h2>Our Services</h2> */}
         <section className="ser">
           <div className="s-g">
             <ServiceCard icon={<FaLaptopCode />} title="Web Development" />
@@ -159,7 +158,6 @@ const Homepage = () => {
           </div>
         </section>
 
-       
         {/* <div className="servicegrid">
        
           <div className="servik">
@@ -209,11 +207,10 @@ const Homepage = () => {
       </div>
 
       <div className="contact">
-        <h3> Call: 7985272417</h3>
+        <h2> Call: 7985272417</h2>
 
         <p>iamabhaykaran@gmail.com</p>
       </div>
-  
     </div>
   );
 };
@@ -222,9 +219,9 @@ export default Homepage;
 
 function ServiceCard({ icon, title }) {
   // return (
-    // <div className="s-card">
-    //   <div className="icon">{icon}</div>
-    //   <h3>{title}</h3>
-    // </div>
+  // <div className="s-card">
+  //   <div className="icon">{icon}</div>
+  //   <h3>{title}</h3>
+  // </div>
   // );
 }
