@@ -4,8 +4,8 @@ const OurClients = () => {
   return (
     <div className="service-box bg-grey">
       <h1>
-        Why seek support with
-        <span className="text-half-color"> Web Development solutions</span>
+        Why Chosse
+        <span className="text-half-color">ELYSIUM </span>
       </h1>
       <br />
       <div>
