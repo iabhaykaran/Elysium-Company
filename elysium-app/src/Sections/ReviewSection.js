@@ -8,7 +8,8 @@ const ReviewSection = () => {
         <span className="text-half-color"> Say About Us?</span>
       </h2>
       <br />
-      <h3>
+      <br />
+      <h3 style={{ fontSize: "17px", fontWeight: "500" }}>
         Excellence and speed. It's rare to get both, and ELYSIUM delivers.
       </h3>
       <br />
