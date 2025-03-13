@@ -7,6 +7,7 @@ import OurClients from "../Sections/OurClients";
 import StepsSection from "../Sections/StepsSection";
 import ReviewSection from "../Sections/ReviewSection";
 import AiSection from "../Sections/AiSection";
+import TechnologiesSec from "../Sections/TechnologiesSec";
 
 const Homepage = () => {
   return (
@@ -37,6 +38,8 @@ const Homepage = () => {
         <StepsSection />
         <ReviewSection />
         <AiSection />
+
+        <TechnologiesSec />
         <br />
         <br />
         {/* Services Section */}
