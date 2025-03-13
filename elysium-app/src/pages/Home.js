@@ -6,6 +6,7 @@ import ServiceCom from "../Sections/ServiceCom";
 import OurClients from "../Sections/OurClients";
 import StepsSection from "../Sections/StepsSection";
 import ReviewSection from "../Sections/ReviewSection";
+import AiSection from "../Sections/AiSection";
 
 const Homepage = () => {
   return (
@@ -35,6 +36,7 @@ const Homepage = () => {
         <OurClients />
         <StepsSection />
         <ReviewSection />
+        <AiSection />
         <br />
         <br />
         {/* Services Section */}
@@ -215,28 +217,6 @@ const Homepage = () => {
         <h3>elysium@gmail.com</h3>
       </div>
     </div>
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   );
 };
 

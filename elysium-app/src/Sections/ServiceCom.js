@@ -27,7 +27,7 @@ const ServiceCom = () => {
         style={{
           display: "flex",
           paddingLeft: "px",
-          gap: "4px",
+          gap: "5px",
           overflowX: "scroll",
         }}
       >
