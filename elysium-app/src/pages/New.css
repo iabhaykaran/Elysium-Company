@@ -19,12 +19,17 @@
   width: 220px;
   /* background-color: #1b1b1b; */
   background-color: #25282d;
-
   color: rgb(255, 255, 255);
   font-size: 12px;
   text-align: left;
   height: 250px;
   font-weight: 500;
+}
+
+.services-card:hover{
+
+  transition: transform 0.5s;
+  transform: scale(1.1);
 }
 
 .services-card h3 {

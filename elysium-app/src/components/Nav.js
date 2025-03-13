@@ -15,7 +15,7 @@ const Nav = () => {
           marginBottom: "20px",
         }}
       >
-        <h1>
+        <h1 className="slide-right">
           <span
             style={{
               padding: "0px 9px",
@@ -28,6 +28,7 @@ const Nav = () => {
         </h1>
       </div>
     </div>
+    
   );
 };
 

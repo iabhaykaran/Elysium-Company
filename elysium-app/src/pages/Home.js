@@ -20,7 +20,7 @@ const Homepage = () => {
         >
           <div className="hero-head" style={{ padding: "10px" }}>
             <h1>
-              <span className="bgr">E L Y S I U M</span>
+              <span className="bgr slide-right">E L Y S I U M</span>
             </h1>
             <h2>Web Development Company.</h2>
             <p>Empowering businesses with cutting edge digital solutions</p>
@@ -212,11 +212,31 @@ const Homepage = () => {
       </div>
 
       <div className="contact">
-        {/* <h2> Call: 7985272417</h2> */}
-
-        <p>elysium@gmail.com</p>
+        <h3>elysium@gmail.com</h3>
       </div>
     </div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   );
 };
 
