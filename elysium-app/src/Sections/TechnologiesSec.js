@@ -18,20 +18,22 @@ const TechnologiesSec = () => {
         style={{
           display: "flex",
           overflowX: "scroll",
-          gap: "30px",
-          padding: "30px 0px",
+          gap: "50px",
+          padding: "30px 50px",
         }}
       >
         <div>
           <FaReact style={{ fontSize: "50px", flexDirection: "column" }} />
+          <p style={{ fontSize: "14px" }}>React.Js</p>
         </div>
 
-        <div>
+        <div style={{ textAlign: "center" }}>
           <FaAws style={{ fontSize: "50px" }} />
+          <p style={{ fontSize: "14px" }}>AWS</p>
         </div>
         <div style={{ textAlign: "center" }}>
           <VscAzure style={{ fontSize: "50px" }} />
-          <p style={{ fontSize: "14px" }}>Azure Services</p>
+          <p style={{ fontSize: "14px" }}>Azure</p>
         </div>
         <div style={{ textAlign: "center" }}>
           <CiCloudOn style={{ fontSize: "50px" }} />

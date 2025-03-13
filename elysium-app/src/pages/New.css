@@ -26,8 +26,7 @@
   font-weight: 500;
 }
 
-.services-card:hover{
-
+.services-card:hover {
   transition: transform 0.5s;
   transform: scale(1.1);
 }
@@ -65,11 +64,9 @@
 
 .count-card {
   height: 200px;
+  /* color: rgb(220, 85, 18); */
 }
 
-
-.review-box{
-
-
-  /* background-color: rgb(16, 18, 20); */
+.review-box {
+  /* background-color: rgb(209, 209, 209); */
 }

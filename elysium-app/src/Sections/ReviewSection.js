@@ -22,7 +22,7 @@ const ReviewSection = () => {
           <GiLetterBomb
             style={{
               fontSize: "42px",
-              color: "rgb(37, 255, 142)",
+              color: "rgb(255, 115, 45)",
             }}
           />
           {/* <MdOutlineReviews style={{ fontSize: "40px" }} /> */}
@@ -30,7 +30,7 @@ const ReviewSection = () => {
         </div>
         <div>
           <h4> Ayu Devraj</h4>
-      
+
           <p> Cloud Associates at Publicis Sapient </p>
         </div>
       </div>
