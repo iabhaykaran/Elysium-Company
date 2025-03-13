@@ -17,7 +17,7 @@ const StepsSection = () => {
         </p>
       </div>
       <br />
-      <br />
+
       <br />
       <div
         className="scroll-none"
@@ -30,23 +30,30 @@ const StepsSection = () => {
       >
         <StepCountCard
           count="01"
+          heading=" Consult your idea   "
           text=" Set the right direction with our web development consultants.  "
         />
         <StepCountCard
           count="02"
+          heading="
+          Choose a technology
+          "
           text=" Together, we'll decide on the tech stack and the overall approach. "
         />
         <StepCountCard
           count="03"
+          heading="Design"
           text=" We'll craft a beautiful and user-friendly web solution with our expert designers. "
         />
         <StepCountCard
           count="04"
+          heading="Develop"
           text="  We'll code the web app with a team of experienced engineers."
         />
         <StepCountCard
           count="05"
-          text="We'll help you launch your product and keep it in good shape with support and maintenance."
+          heading="Reach the Market"
+          text="We'll help you launch your product and keep it in good shape and maintenance."
         />
       </div>
     </div>

@@ -8,29 +8,36 @@
   padding: 60px 20px;
   height: 80vh;
 }
+
+.service-box p {
+  font-size: 12px;
+  color: #e7e7e7;
+}
 .services-card {
   padding: 15px;
   border-right: 1px solid rgb(72, 189, 193);
   width: 220px;
-  background-color: #1b1b1b;
+  /* background-color: #1b1b1b; */
+  background-color: #25282d;
+
   color: rgb(255, 255, 255);
-  font-size: small;
+  font-size: 12px;
   text-align: left;
-  height: 185px;
+  height: 250px;
   font-weight: 500;
 }
+
 .services-card h3 {
   color: rgb(250, 246, 138);
 }
 
 .bg-grey {
-  background-color: rgb(27, 28, 28);
+  /* background-color: rgb(27, 28, 28); */
+  background-color: #25282d;
 }
 
 .text-half-color {
-  /* color: #ffe95c; */
-  /* color: rgb(179, 226, 63); */
-  color: rgb(34, 230, 197);
+  color: rgb(9, 254, 127);
 }
 
 .scroll-none::-webkit-scrollbar {
@@ -39,4 +46,25 @@
 
 .bgr {
   color: rgb(34, 230, 197);
+}
+
+.client-btn {
+  padding: 5px;
+  text-align: center;
+  width: 128px;
+  font-size: 12px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0);
+}
+
+.count-card {
+  height: 200px;
+}
+
+
+.review-box{
+
+
+  /* background-color: rgb(16, 18, 20); */
 }

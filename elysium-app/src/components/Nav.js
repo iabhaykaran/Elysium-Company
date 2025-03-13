@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <div>
-      <div 
+      <div
         className="navbar"
         style={{
           background: "black",
@@ -18,14 +18,13 @@ const Nav = () => {
         <h1>
           <span
             style={{
-              padding: "0px 12px",
+              padding: "0px 9px",
               width: "10px",
               borderRadius: "",
             }}
           >
-            E L Y
+            E L Y S I U M
           </span>
-          S I U M
         </h1>
       </div>
     </div>

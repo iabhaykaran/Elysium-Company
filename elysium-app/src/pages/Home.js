@@ -5,6 +5,7 @@ import "../App.css";
 import ServiceCom from "../Sections/ServiceCom";
 import OurClients from "../Sections/OurClients";
 import StepsSection from "../Sections/StepsSection";
+import ReviewSection from "../Sections/ReviewSection";
 
 const Homepage = () => {
   return (
@@ -30,8 +31,12 @@ const Homepage = () => {
         </motion.header>
 
         <ServiceCom />
+        <br />
         <OurClients />
         <StepsSection />
+        <ReviewSection />
+        <br />
+        <br />
         {/* Services Section */}
         {/* <section className="services-section">
           <h2>

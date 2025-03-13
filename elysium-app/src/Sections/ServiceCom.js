@@ -14,7 +14,7 @@ const ServiceCom = () => {
       <br />
 
       <div>
-        <p>
+        <p style={{ fontSize: "14px" }}>
           Our battle-tested developers specialize in a wide range of web
           development services. Here's what we deliver
         </p>
@@ -27,7 +27,7 @@ const ServiceCom = () => {
         style={{
           display: "flex",
           paddingLeft: "px",
-          gap: "20px",
+          gap: "4px",
           overflowX: "scroll",
         }}
       >
