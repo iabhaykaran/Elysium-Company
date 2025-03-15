@@ -10,14 +10,18 @@
   list-style: none;
 }
 
+body {
+  background-color: #4f4f4f;
+  margin: auto;
+}
 .App {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  max-width: 850px;
   margin: auto;
   background-color: #000000;
   color: #ffffff;
+  max-width: 850px;
 }
 
 h1 {
@@ -25,15 +29,13 @@ h1 {
   color: #ffffff;
 }
 
-body {
-  background-color: #4f4f4f;
-}
 a {
   color: #9fb7ec;
 }
 
 .navbar {
   position: fixed;
+  margin: auto;
   top: 0;
   left: 0;
   background: #333;
@@ -52,7 +54,7 @@ a {
   margin: auto;
 }
 
-/*------------------------ Hero Section ---------------*/
+/*---------------- Hero Section ---------------*/
 
 .hero-section {
   text-align: left;
@@ -66,7 +68,7 @@ a {
 }
 
 .slide-right {
-  animation: 3s slide-right;
+  animation: 5s slide-right;
 }
 @keyframes slide-right {
   from {
@@ -157,7 +159,8 @@ a {
 
 .pricing-card {
   padding: 50px 20px;
-  background-color: #1b1b1b;
+  /* background-color: #1b1b1b; */
+  background-color: #25282d;
   text-align: left;
   transition: transform 0.7s;
   font-size: 14px;

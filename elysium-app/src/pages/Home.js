@@ -107,7 +107,7 @@ const Homepage = () => {
           >
             {[
               {
-                plan: "Basic Website ( HTML, CSS, PHP ) –",
+                plan: "Basic Website ( HTML, CSS, PHP )",
                 price: `10,000 - 80,000₹`,
                 features: [
                   "Simple and responsive",
@@ -121,7 +121,7 @@ const Homepage = () => {
                 features: [
                   "High-perfomance, Modern UI",
                   "Advanced SEO",
-                  "Experience like Facebook / Instagram",
+                  "Experience like SPA",
                 ],
               },
               {

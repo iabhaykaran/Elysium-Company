@@ -5,8 +5,8 @@
 }
 
 .service-box {
-  padding: 60px 20px;
-  height: 80vh;
+  padding: 65px 20px;
+  /* height: 80vh; */
 }
 
 .service-box p {
@@ -17,7 +17,6 @@
   padding: 15px;
   border-right: 1px solid rgb(72, 189, 193);
   width: 220px;
-  /* background-color: #1b1b1b; */
   background-color: #25282d;
   color: rgb(255, 255, 255);
   font-size: 12px;
@@ -28,7 +27,7 @@
 
 .services-card:hover {
   transition: transform 0.5s;
-  transform: scale(1.0);
+  transform: scale(1);
 }
 
 .services-card h3 {
@@ -69,6 +68,4 @@
 
 .review-box {
   /* background-color: rgb(209, 209, 209); */
-
-  
 }

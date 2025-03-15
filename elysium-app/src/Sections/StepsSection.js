@@ -3,7 +3,7 @@ import StepCountCard from "../components/StepCountCard";
 const StepsSection = () => {
   return (
     <div className="service-box">
-      <br />
+      {/* <br /> */}
       <h2>
         Leverage our proven
         <span className="text-half-color"> Web development process</span>
@@ -56,6 +56,7 @@ const StepsSection = () => {
           heading="Reach the Market"
           text="We'll help you launch your product and keep it in good shape and maintenance."
         />
+  
       </div>
     </div>
   );
