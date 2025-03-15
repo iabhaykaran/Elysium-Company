@@ -11,9 +11,9 @@ import { SiPhp } from "react-icons/si";
 const TechnologiesSec = () => {
   return (
     <div className="bg-grey" style={{ padding: "60px 20px" }}>
-      <h2>
+      <h2 style={{ fontWeight: "500" }}>
         Technologies
-        <span className="text-half-color"> We leverage</span>
+        <span className="text-half-color"> we leverage</span>
       </h2>
       <div
         className="scroll-none"
@@ -56,13 +56,11 @@ const TechnologiesSec = () => {
           <RiTailwindCssFill style={{ fontSize: "50px" }} />
 
           <p style={{ fontSize: "14px" }}>Tailwind</p>
-      
         </div>
         <div style={{ textAlign: "center" }}>
           <SiPhp style={{ fontSize: "50px" }} />
 
           <p style={{ fontSize: "14px" }}>php</p>
-      
         </div>
         <div style={{ textAlign: "center" }}>
           <FaJsSquare style={{ fontSize: "50px" }} />
@@ -70,8 +68,6 @@ const TechnologiesSec = () => {
           <p style={{ fontSize: "14px" }}>Javascript</p>
           {/* <img src="image.png" alt="#" height="50px" /> */}
         </div>
-
-
 
         <div style={{ textAlign: "center" }}>
           <img src="image.png" alt="#" height="50px" />

@@ -1,12 +1,10 @@
 import React from "react";
-// import { MdOutlineReviews } from "react-icons/md";
 import { GiLetterBomb } from "react-icons/gi";
-// import { AiFillHtml5 } from "react-icons/ai";
 
 const ReviewSection = () => {
   return (
     <div style={{ height: "50vh" }} className="bg-grey  service-box">
-      <h2>
+      <h2 style={{ fontWeight: "500" }}>
         What customers
         <span className="text-half-color"> Say About Us?</span>
       </h2>
@@ -25,8 +23,6 @@ const ReviewSection = () => {
               color: "rgb(255, 187, 0)",
             }}
           />
-          {/* <MdOutlineReviews style={{ fontSize: "40px" }} /> */}
-          {/* <img src="logo192.png" alt="#" height="40px" width="100%" /> */}
         </div>
         <div>
           <h4>Ravi Evani</h4>
