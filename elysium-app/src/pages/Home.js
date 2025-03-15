@@ -108,7 +108,7 @@ const Homepage = () => {
             {[
               {
                 plan: "Basic Website (HTML, CSS, PHP) –",
-                price: `10,000-40,000₹`,
+                price: `10,000 - 40,000₹`,
                 features: [
                   "Simple and responsive",
                   "Basic Booking functionality",
@@ -117,7 +117,7 @@ const Homepage = () => {
               },
               {
                 plan: "Advanced Website Using (React.Js)",
-                price: "35,000-80,000₹",
+                price: "35,000 - 80,000₹",
                 features: [
                   "High-perfomance, Modern UI",
                   "Advanced SEO",
@@ -125,12 +125,12 @@ const Homepage = () => {
                 ],
               },
               {
-                plan: "Mobile App Development",
-                price: "40,000-1.5 Lakh",
+                plan: "Mobile App Development (React Native)",
+                price: "50,000 - 2 Lakh",
                 features: [
                   "App Integrated with Website ",
                   "Smoooth User Experience",
-                  "Priority Support",
+                  "Priority Support 24x7",
                 ],
               },
             ].map((plan, index) => (
