@@ -28,7 +28,7 @@
 
 .services-card:hover {
   transition: transform 0.5s;
-  transform: scale(1.1);
+  transform: scale(1.0);
 }
 
 .services-card h3 {
@@ -69,4 +69,6 @@
 
 .review-box {
   /* background-color: rgb(209, 209, 209); */
+
+  
 }

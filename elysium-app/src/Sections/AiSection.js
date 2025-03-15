@@ -5,7 +5,7 @@ const AiSection = () => {
     <div
       className="b-grey"
       style={{
-        padding: "60px 20px",
+        padding: "100px 20px",
         justifyContent: "center",
         alignItems: "center",
       }}
@@ -15,21 +15,19 @@ const AiSection = () => {
         <span className="text-half-color"> Website's Performance</span>
       </h2>
       <br />
-      <img
+      {/* <img
         style={{ borderRadius: "1px" }}
         src="ai.webp"
         height="300px"
         width="100%"
         alt="#"
-      />
-      <br />
-      <br />
+      /> */}
+
       <p style={{ fontSize: "14px" }}>
-        At Elysium, we use Artificial Intelligence to create fast, intelligent,
-        and scalable websites. A website should be more than just an online
-        presence. It should be an experience that feels seamless and engaging.
-        AI helps us achieve that by optimizing performance and enhancing user
-        interaction.
+        We use Artificial Intelligence to create fast, intelligent, and scalable
+        websites. A website should be more than just an online presence. It
+        should be an experience that feels seamless and engaging. AI helps us
+        achieve that by optimizing performance and enhancing user interaction.
       </p>
     </div>
   );

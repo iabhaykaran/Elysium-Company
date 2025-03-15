@@ -18,8 +18,8 @@ const TechnologiesSec = () => {
         style={{
           display: "flex",
           overflowX: "scroll",
-          gap: "50px",
-          padding: "30px 50px",
+          gap: "40px",
+          padding: "30px 10px",
         }}
       >
         <div>

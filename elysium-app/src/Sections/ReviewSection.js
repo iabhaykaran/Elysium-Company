@@ -1,7 +1,7 @@
 import React from "react";
-import { MdOutlineReviews } from "react-icons/md";
+// import { MdOutlineReviews } from "react-icons/md";
 import { GiLetterBomb } from "react-icons/gi";
-import { AiFillHtml5 } from "react-icons/ai";
+// import { AiFillHtml5 } from "react-icons/ai";
 
 const ReviewSection = () => {
   return (
@@ -22,14 +22,14 @@ const ReviewSection = () => {
           <GiLetterBomb
             style={{
               fontSize: "42px",
-              color: "rgb(255, 115, 45)",
+              color: "rgb(255, 187, 0)",
             }}
           />
           {/* <MdOutlineReviews style={{ fontSize: "40px" }} /> */}
           {/* <img src="logo192.png" alt="#" height="40px" width="100%" /> */}
         </div>
         <div>
-          <h4> Ayu Devraj</h4>
+          <h4>Ravi Evani</h4>
 
           <p> Cloud Associates at Publicis Sapient </p>
         </div>

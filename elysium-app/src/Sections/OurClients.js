@@ -13,7 +13,7 @@ const OurClients = () => {
         <p style={{ fontSize: "14px" }}>
           Businesses that we've worked with reported faster time-to-market,
           premium user experience, and flawless performance. We build web
-          solutions for:
+          solutions for.
         </p>
       </div>
       <br />
