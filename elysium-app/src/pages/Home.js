@@ -24,8 +24,10 @@ const Homepage = () => {
             <h1>
               <span className="bgr slide-right">E L Y S I U M</span>
             </h1>
-            <h2>Web Development Company.</h2>
-            <p>Empowering businesses with cutting edge digital solutions</p>
+            <h2>Web Development Company</h2>
+            <p style={{ fontSize: "14px" }}>
+              Empowering businesses with cutting edge digital solutions
+            </p>
             {/* <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
               <Link to="/home">Get Started</Link>
             </motion.button> */}

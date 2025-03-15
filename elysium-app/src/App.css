@@ -59,8 +59,8 @@ a {
 .hero-section {
   text-align: left;
   height: 100vh;
-  color: #cecccc;
-   /* color: rgb(222, 203, 254); */
+  color: #dfdfdf;
+  /* color: rgb(222, 203, 254); */
   background-color: #25282d;
 
   background-size: cover;
@@ -76,7 +76,7 @@ a {
 }
 
 .slide-right {
-  animation: 2s slide-right;
+  animation: 3s slide-right;
 }
 @keyframes slide-right {
   from {
