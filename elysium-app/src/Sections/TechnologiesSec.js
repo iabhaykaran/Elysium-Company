@@ -5,6 +5,8 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { VscAzure } from "react-icons/vsc";
 import { CiCloudOn } from "react-icons/ci";
+import { FaJsSquare } from "react-icons/fa";
+import { SiPhp } from "react-icons/si";
 
 const TechnologiesSec = () => {
   return (
@@ -22,9 +24,15 @@ const TechnologiesSec = () => {
           padding: "30px 10px",
         }}
       >
-        <div>
-          <FaReact style={{ fontSize: "50px", flexDirection: "column" }} />
-          <p style={{ fontSize: "14px" }}>React.Js</p>
+        <div style={{ textAlign: "center" }}>
+          <FaReact
+            style={{
+              fontSize: "50px",
+              flexDirection: "column",
+              textAlign: "center",
+            }}
+          />
+          <p style={{ fontSize: "14px" }}>React</p>
         </div>
 
         <div style={{ textAlign: "center" }}>
@@ -48,8 +56,23 @@ const TechnologiesSec = () => {
           <RiTailwindCssFill style={{ fontSize: "50px" }} />
 
           <p style={{ fontSize: "14px" }}>Tailwind</p>
+      
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <SiPhp style={{ fontSize: "50px" }} />
+
+          <p style={{ fontSize: "14px" }}>php</p>
+      
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <FaJsSquare style={{ fontSize: "50px" }} />
+
+          <p style={{ fontSize: "14px" }}>Javascript</p>
           {/* <img src="image.png" alt="#" height="50px" /> */}
         </div>
+
+
+
         <div style={{ textAlign: "center" }}>
           <img src="image.png" alt="#" height="50px" />
           <p style={{ fontSize: "14px" }}>Node.Js</p>

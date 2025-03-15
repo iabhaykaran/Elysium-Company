@@ -10,18 +10,20 @@ const AiSection = () => {
         alignItems: "center",
       }}
     >
-      <h2 style={{ fontWeight: "500" }}>
-        AI-Driven Optimization: Elevate Your
-        <span className="text-half-color"> Website's Performance</span>
-      </h2>
-      <br />
-      {/* <img
+      <img
         style={{ borderRadius: "1px" }}
         src="ai.webp"
         height="300px"
         width="100%"
         alt="#"
-      /> */}
+      />
+      <br />
+      <br />
+      <h2 style={{ fontWeight: "500" }}>
+        AI-Driven Optimization: Elevate Your
+        <span className="text-half-color"> Website's Performance</span>
+      </h2>
+      <br />
 
       <p style={{ fontSize: "14px" }}>
         We use Artificial Intelligence to create fast, intelligent, and scalable
