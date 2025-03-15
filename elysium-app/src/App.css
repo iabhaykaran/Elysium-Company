@@ -58,17 +58,24 @@ a {
 
 .hero-section {
   text-align: left;
-  background-color: #25282d;
-  color: #ffffff;
+  /* background-color: #25282d; */
+
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+
+  color: #000000;
   height: 100vh;
   display: flex;
+
+  background-image: url("/public/cr.png");
   align-items: center;
   justify-content: center;
   padding: 10px;
 }
 
 .slide-right {
-  animation: 5s slide-right;
+  animation: 2s slide-right;
 }
 @keyframes slide-right {
   from {
