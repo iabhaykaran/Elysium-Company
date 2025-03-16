@@ -28,9 +28,22 @@ const Homepage = () => {
             <p style={{ fontSize: "14px" }}>
               Empowering businesses with cutting edge digital solutions
             </p>
-            {/* <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
-              <Link to="/home">Get Started</Link>
-            </motion.button> */}
+            <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
+              {/* <Link to="/home">Get Started</Link> */}
+              <button
+                className="contact-btn"
+                onClick={() =>
+                  window.open(
+                    `https://wa.me/917985272417?text=${encodeURIComponent(
+                      "Hello, I am interested in your Web Development service!"
+                    )}`,
+                    "_blank"
+                  )
+                }
+              >
+                contact
+              </button>
+            </motion.button>
           </div>
         </motion.header>
 

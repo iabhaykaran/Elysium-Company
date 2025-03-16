@@ -9,26 +9,12 @@ const Nav = () => {
           background: "black",
           display: "flex",
           padding: "5px 10px",
-          // maxWidth: "850px",
-          position: "  ",
-          // color: "black",
           marginBottom: "20px",
         }}
       >
-        <h1 className="slide-right">
-          <span
-            style={{
-              padding: "0px 9px",
-              width: "10px",
-              borderRadius: "",
-            }}
-          >
-            E L Y S I U M
-          </span>
-        </h1>
+        <h1 className="slide-right">E L Y S I U M</h1>
       </div>
     </div>
-    
   );
 };
 

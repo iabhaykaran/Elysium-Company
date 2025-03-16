@@ -7,7 +7,6 @@ const Card = (props) => {
     <div style={{ width: "100%" }}>
       <div className="services-card">
         <h3> {props.title}</h3>
-        {/* <hr/> */}
         <br />
         <p>
           {props.text}
