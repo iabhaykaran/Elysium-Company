@@ -232,7 +232,7 @@ const Homepage = () => {
       </div>
 
       <div className="contact">
-        {/* <h3>Call : 7985272417</h3> */}
+
         <h3>elysium@gmail.com</h3>
       </div>
     </div>
