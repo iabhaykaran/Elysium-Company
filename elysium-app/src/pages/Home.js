@@ -30,7 +30,7 @@ const Homepage = () => {
             </p>
             <motion.button className="cta-button" whileHover={{ scale: 1.1 }}>
               {/* <Link to="/home">Get Started</Link> */}
-              {/* <button
+              <button
                 className="contact-btn"
                 onClick={() =>
                   window.open(
@@ -42,7 +42,7 @@ const Homepage = () => {
                 }
               >
                 contact
-              </button> */}
+              </button>
             </motion.button>
           </div>
         </motion.header>
@@ -233,7 +233,7 @@ const Homepage = () => {
 
       <div className="contact">
 
-        <h3>elysium@gmail.com</h3>
+        <h3>Call : 7985272417</h3>
       </div>
     </div>
   );
