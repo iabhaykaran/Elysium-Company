@@ -123,7 +123,7 @@ const Homepage = () => {
             {[
               {
                 plan: "Basic Website ( HTML, CSS, PHP )",
-                price: `10,000 - 80,000₹`,
+                
                 features: [
                   "Simple and responsive",
                   "Basic Booking functionality",
@@ -132,7 +132,7 @@ const Homepage = () => {
               },
               {
                 plan: "Advanced Website Using ( React.Js )",
-                price: "40,000 - 1.5 lakh",
+              
                 features: [
                   "High-perfomance, Modern UI",
                   "Advanced SEO",
@@ -141,7 +141,7 @@ const Homepage = () => {
               },
               {
                 plan: "Mobile App Development ( React Native )",
-                price: "50,000 - 2 Lakh",
+     
                 features: [
                   "App Integrated with Website ",
                   "Smoooth User Experience",
